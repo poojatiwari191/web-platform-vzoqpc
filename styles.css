@@ -1,0 +1,210 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  
+  
+}
+.nav-list{
+  width:100;
+  display:flex;
+  align-items:center;
+  background-color:blue;
+  
+  
+}
+
+.nav-list li{
+  list-style:none;
+  padding:30px 30px;
+  background-color:rgba(red, green, blue, alpha)
+  
+}
+nav-list li a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+.nav-list li a:hover{
+  color:grey;
+ }
+
+ 
+
+.rightnav{
+  width:100;
+  text-align:right;
+ 
+}
+.Container{
+  background-color: lightblue;
+  height:90vh;
+  width:80vw;
+  margin:144px auto;
+  display:flex;
+}
+.Welcome{
+  font-size: 12px;
+  text-align: center;
+  background-color:rgb(187, 186, 186);
+
+}
+
+
+
+.Approval{
+  text-decoration: solid;
+  color:blue;
+  font-size: large;
+}
+.appovallists{
+  text-decoration: underline;
+  color:black;
+  
+}
+.timecardinstructionbox{
+
+  text-decoration-color: solid;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: circle;
+}
+.container1{
+  border: 1px solid black;
+            width: 1000px;
+            height: 200px;
+            background-color:lightblue; 
+            border-radius: 10px; 
+            
+}
+
+.container2{
+  border: 1px solid black;
+            width: 1000px;
+            height: 200px;
+            background-color:white; 
+             
+}
+.Employeedetails{
+  width:98%;
+  min-width:98%;
+  max-width:98%;
+  height:25px;
+ 
+  overflow:hidden;
+  padding:1%;
+  margin:0;
+  background-color:lightgrey;
+}
+
+td {
+  width: 100px;
+ 
+ 
+  padding: 5px;
+}
+
+.container3{
+  border: 1px solid black;
+            width: 1000px;
+            height: 200px;
+            background-color:white; 
+             
+}
+
+.projectdetails{
+  width:98%;
+  min-width:98%;
+  max-width:98%;
+  height:25px;
+ 
+  overflow:hidden;
+  padding:1%;
+  margin:0;
+  background-color:lightgrey;
+}
+
+.Text{
+  font-size: medium;
+}
+.maintable,.projectid,.projectname{
+  border-collapse: collapse;
+  
+}
+.projectid{
+  border: 1px solid grey;
+   
+    text-align: left;
+  width: 200px;
+  
+  height:35px;
+}
+.projectname{
+  border: 1px solid grey;
+   
+    text-align: left;
+  width: 200px;
+  
+  height:35px;
+}
+.startdate{
+  border: 1px solid grey;
+   
+    text-align: left;
+  width: 200px;
+  
+  height:35px;
+}
+
+.period{
+  width:100;
+  text-align:right;
+ color: rgb(173, 204, 230);
+}
+
+
+.submission{
+top: 0;
+position: sticky;
+background: lightblue;
+color: black;
+width: 100%;
+border-right: 1px solid #000900;
+}
+
+.container4{
+  border: 1px solid black;
+            width:100%;
+            height: 200px;
+            
+             
+}
+.input{
+  text-align: center;
+}
+
+
+
+
+
+
